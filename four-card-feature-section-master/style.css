@@ -37,8 +37,15 @@ body{
 .box{
     text-align: left;
     background-color: white;
+    margin: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
+.box img{
+    margin-left: auto;
+}
 
 .box h3{
     color: black;
